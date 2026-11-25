@@ -1,0 +1,15 @@
+.gradle/
+.idea/
+.kotlin/
+**/build/
+local.properties
+*.jks
+*.keystore
+*.apk
+*.aab
+.env*
+HANDOFF.md
+docs/checks/
+.DS_Store
+Thumbs.db
+.github/workflows/

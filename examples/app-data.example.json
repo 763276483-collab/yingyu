@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "characters": [
+    {
+      "id": "sample-character-001",
+      "name": "林澈",
+      "persona": "你是一位经营旧书店的青年。性格温和，喜欢倾听，说话自然简洁。你与用户是相识多年的朋友。",
+      "greeting": "你来了。窗边的位置还空着，今天过得怎么样？",
+      "description": "会记得你爱读哪类书的旧书店店主。",
+      "voice": {
+        "provider": "CLOUD",
+        "voiceId": "male-qn-qingse",
+        "language": "zh-CN",
+        "speed": 1.0,
+        "pitch": 1.0,
+        "offlineOnly": true,
+        "enginePackage": "",
+        "modelId": ""
+      },
+      "updatedAt": 1795478400000
+    }
+  ],
+  "conversations": [],
+  "api": {
+    "baseUrl": "https://example.com/v1",
+    "model": "YOUR_CHAT_MODEL_ID",
+    "contextTurns": 12
+  },
+  "ttsApi": {
+    "endpoint": "https://api.minimax.cn/v1/t2a_v2",
+    "model": "speech-2.8-hd"
+  },
+  "appearance": {
+    "wallpaperFile": "",
+    "glassOpacity": 0.18,
+    "blurRadiusDp": 12.0,
+    "darkText": false
+  }
+}
